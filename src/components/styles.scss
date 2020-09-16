@@ -1,0 +1,20 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.list {
+    margin-top: 20px;
+    &__list {
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+    }
+}
