@@ -3,9 +3,9 @@ import { Input, Button } from "@material-ui/core";
 interface NewNoteInputProps {
   addNote(note: string): void
 }
- //modify git accountfdfdfdf
+ //modify git accountfdfdfdfefefefeqwdefgr
 const StateHooksComponent: FC<NewNoteInputProps> = ({addNote}) => {
-
+//asdasdasdasd
   const [note, setNote] = useState<string>("");
   
   const updateNote = (event: ChangeEvent<HTMLInputElement>) => {
